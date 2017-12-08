@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <div class="page-header text-center">
+              <h1>遊戲滿意度調查</h1>
+            </div>
+            <div>
+                <form data-toggle="validator" class="form-horizontal" action="end" method="post">
+                    <div class="form-group">
+                        <label for="c1" class="control-label">請問您平均一個月接觸免費線上遊戲的時間</label>
+                        <div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c1" value="05" required>
+                                          0 ~ 5 次
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c1" value="610" required>
+                                          6 ~ 10 次
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c1" value="1115" required>
+                                          11 ~ 15 次
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c1" value="16" required>
+                                          15 次以上(不包含 15 次)
+                                    </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="c2" class="control-label">請問您平均每次遊玩免費線上遊戲的時間為</label>
+                        <div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c2" value="05" required>
+                                          0 ~ 0.5 小時
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c2" value="610" required>
+                                          1 小時
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c2" value="1115" required>
+                                          2 小時
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c2" value="16" required>
+                                          3 小時
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c2" value="16" required>
+                                          3 小時以上(不包含 3 小時)
+                                    </label>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="form-group">
+                        <label for="c3" class="control-label">我覺得此遊戲介面操作上是簡單的</label>
+                        <div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c3" value="05" required>
+                                          非常不同意
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c3" value="610" required>
+                                          不同意
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c3" value="1115" required>
+                                          同意
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c3" value="16" required>
+                                          非常同意
+                                    </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="c4" class="control-label">我覺得此遊戲介面使用上是流暢的</label>
+                        <div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c4" value="05" required>
+                                          非常不同意
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c4" value="610" required>
+                                          不同意
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c4" value="1115" required>
+                                          同意
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c4" value="16" required>
+                                          非常同意
+                                    </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="c5" class="control-label">我覺得此遊戲畫質精美</label>
+                        <div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c5" value="05" required>
+                                          非常不同意
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c5" value="610" required>
+                                          不同意
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c5" value="1115" required>
+                                          同意
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c5" value="16" required>
+                                          非常同意
+                                    </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="c6" class="control-label">我覺得此遊戲風格一致</label>
+                        <div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c6" value="05" required>
+                                          非常不同意
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c6" value="610" required>
+                                          不同意
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c6" value="1115" required>
+                                          同意
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c6" value="16" required>
+                                          非常同意
+                                    </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="c7" class="control-label">整體而言，我對此遊戲感到滿意</label>
+                        <div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c7" value="05" required>
+                                          非常不同意
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c7" value="610" required>
+                                          不同意
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c7" value="1115" required>
+                                          同意
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c7" value="16" required>
+                                          非常同意
+                                    </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="c8" class="control-label">整體而言，我會繼續參與此遊戲</label>
+                        <div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c8" value="05" required>
+                                          非常不同意
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c8" value="610" required>
+                                          不同意
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c8" value="1115" required>
+                                          同意
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c8" value="16" required>
+                                          非常同意
+                                    </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="c9" class="control-label">整體而言，我會推薦朋友一起玩此遊戲</label>
+                        <div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c9" value="05" required>
+                                          非常不同意
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c9" value="610" required>
+                                          不同意
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c9" value="1115" required>
+                                          同意
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c9" value="16" required>
+                                          非常同意
+                                    </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="c0" class="control-label">整體而言，此遊戲的內容符合我的喜好</label>
+                        <div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c0" value="05" required>
+                                          非常不同意
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c0" value="610" required>
+                                          不同意
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c0" value="1115" required>
+                                          同意
+                                    </label>
+                            </div>
+                            <div class="radio radio-inline">
+                                  <label>
+                                      <input type="radio" name="c0" value="16" required>
+                                          非常同意
+                                    </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-offset-6 col-sm-6">
+                        <button type="submit" class="btn btn-success">提交</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+</body>
+</html>
